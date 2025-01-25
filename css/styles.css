@@ -520,6 +520,7 @@ header .container {
 }
 .modal-form-diviki {
   position: relative;
+  margin-bottom: 16px;
 }
 .modal-input {
   width: 100%;
@@ -584,7 +585,8 @@ header .container {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked .onay-span {
+
+.onay-checkbox:checked .onay-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
